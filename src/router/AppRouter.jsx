@@ -8,7 +8,7 @@ export const AppRouter = () => {
       <Routes>
         <Route path="/sen" element={<SenConverter/>} />
         <Route path="/psa" element={<App />} />
-        <Route path="/" element={<Navigate to="/psa" />} />
+        <Route path="/*" element={<Navigate to="/psa" />} />
       </Routes>
 
   );
