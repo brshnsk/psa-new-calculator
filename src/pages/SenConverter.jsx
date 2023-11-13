@@ -183,9 +183,9 @@ export const SenConverter = () => {
 
         <div className="col-md-4">
           {selectedOption2.value === 'cs' ? (
-            <img className='img-fluid' src="\icon\cs-icon.png" alt="CS Icon" />
+            <img className='img-fluid' src=".\icon\cs-icon.png" alt="CS Icon" />
           ) : (
-            <img className='img-fluid' src="\icon\valo-icon.webp" alt="Valo Icon" />
+            <img className='img-fluid' src=".\icon\valo-icon.webp" alt="Valo Icon" />
           )}
           <Select
             options={options}
