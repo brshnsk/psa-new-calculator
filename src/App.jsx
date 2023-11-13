@@ -23,7 +23,7 @@ export const App = () => {
   return (
     <>
       <div className="container text-center mt-5">
-        <Header setIsDarkMode={setIsDarkMode} isDarkMode={isDarkMode} title="PSA Calculator" path="/psa-new-calculator/sen" btnInfo="Convertir Sensibilidad"/>
+        <Header setIsDarkMode={setIsDarkMode} isDarkMode={isDarkMode} title="PSA Calculator" path="/sen" btnInfo="Convertir Sensibilidad"/>
         <div className="row justify-content-center">
           <form onSubmit={onSearchSubmit}>
             <div
@@ -79,7 +79,7 @@ export const App = () => {
         {!senValue ? (
           <div className="row mx-auto">
             <h3>Ejemplo</h3>
-            <VideoFrame videoUrl="\videos\video.mp4" />
+            <VideoFrame videoUrl=".\videos\video.mp4" />
           </div>
         ) : (
           ""

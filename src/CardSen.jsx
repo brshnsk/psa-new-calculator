@@ -142,15 +142,15 @@ export const CardSen = ({ senValue, setSenValue, isDarkMode }) => {
 
       <div className="row">
         <div className="col-md-4">
-          <VideoFrame videoUrl="\videos\closeRange.mp4" />
+          <VideoFrame videoUrl=".\videos\closeRange.mp4" />
           <h6>Corta distancia</h6>
         </div>
         <div className="col-md-4">
-          <VideoFrame videoUrl="\videos\midRange.mp4" />
+          <VideoFrame videoUrl=".\videos\midRange.mp4" />
           <h6>Media distancia</h6>
         </div>
         <div className="col-md-4">
-          <VideoFrame videoUrl="\videos\longRange.mp4" />
+          <VideoFrame videoUrl=".\videos\longRange.mp4" />
           <h6>Larga distancia</h6>
         </div>
       </div>

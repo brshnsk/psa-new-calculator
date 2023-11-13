@@ -117,15 +117,15 @@ export const SenConverter = () => {
         setIsDarkMode={setIsDarkMode}
         isDarkMode={isDarkMode}
         title="Sen Converter"
-        path="/psa-calculator/psa"
+        path="/psa"
         btnInfo="PSA Calculator" />
 
       <div className="row" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '75vh' }}>
         <div className="col-md-4">
           {selectedOption1.value === 'cs' ? (
-            <img className='img-fluid' src="/icon/cs-icon.png" alt="CS Icon" />
+            <img className='img-fluid' src="./icon/cs-icon.png" alt="CS Icon" />
           ) : (
-            <img className='img-fluid' src="/icon/valo-icon.webp" alt="Valo Icon" />
+            <img className='img-fluid' src="./icon/valo-icon.webp" alt="Valo Icon" />
           )}
           <Select
             options={options}
