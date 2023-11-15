@@ -56,11 +56,10 @@ video::-webkit-media-controls {
 
 
   /* Add this CSS to your stylesheet */
-  @media (max-width: 576px) { /* Adjust the breakpoint as needed */
+  @media (min-width: 320px) { /* Adjust the breakpoint as needed */
     .btn-outline-info {
-
-      width: 70%;
-
+      
+      width: 120px;
       padding: 0px 20px 0px 20px;
       text-align: center;
     }
